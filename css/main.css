@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'headliner';
+    src: url('../fonts/kc_fonts_-_headlinerno.45-webfont.eot');
+    src: url('../fonts/kc_fonts_-_headlinerno.45-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kc_fonts_-_headlinerno.45-webfont.woff2') format('woff2'),
+         url('../fonts/kc_fonts_-_headlinerno.45-webfont.woff') format('woff'),
+         url('../fonts/kc_fonts_-_headlinerno.45-webfont.ttf') format('truetype'),
+         url('../fonts/kc_fonts_-_headlinerno.45-webfont.svg#headliner_no._45regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'harriet';
+    src: url('harriettext-regular-1v6-webfont.eot');
+    src: url('../fonts/harriettext-regular-1v6-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/harriettext-regular-1v6-webfont.woff2') format('woff2'),
+         url('../fonts/harriettext-regular-1v6-webfont.woff') format('woff'),
+         url('../fonts/harriettext-regular-1v6-webfont.ttf') format('truetype'),
+         url('../fonts/harriettext-regular-1v6-webfont.svg#harriet_text_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'baltomedium';
+    src: url('../fonts/balto-medium-webfont.eot');
+    src: url('../fonts/balto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/balto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/balto-medium-webfont.woff') format('woff'),
+         url('../fonts/balto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/balto-medium-webfont.svg#baltomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{ border-top:0px; }
+
+h1{ font-size:15vw; }
+
+#intro{ width:100%; height:100vh; background:url(../img/top-graphic.jpg); background-size:cover; margin-bottom:85px; }
+
+#title{ width:100%; position:absolute; font-family:'headliner'; background:#001e37; color:#fff; text-align:center; padding-bottom:20px; bottom:0px;}
+#title h1{ font-family:'headliner'; line-height:100%; letter-spacing:1.5vw;}
+#title p{ font-size: 30px; letter-spacing:2px; margin:0; }
+
+.chapter-wrap{ width: 710px; max-width:85%; margin:0 auto; }
+.chapter h3{ width:100%; margin-bottom:70px; letter-spacing:3px; font-size:45px; color:#001e37; text-align:center; font-family:'headliner'; line-height:80%; text-transform:uppercase;}
+.chapter p{ line-height: 24px; font-size:16px; font-weight:normal; font-family:'harriet'; margin-bottom:30px; }
+
+.chapter p.animated-gif{ margin:65px 0 100px; }
+
+#sword{ position:relative; width:100%; height:auto; margin:70px 0 70px;  z-index:1;}
+#sumo{ width:100%; height:auto; margin:70px 0  70px; }
+#sword .background, #sumo img{ width:100%; position:relative; }
+#sword .blood{ position:absolute; left:33.5%; top:62.1%; height:20.44%; width:30.05%; z-index:2; }
+
+
+.line-break{ display:inline-block; margin:20px auto 50px; text-align:center; width:100%; }
+.line-break img{ display:inline-block; }
+.firstcharacter { float: left; font-family:'headliner'; font-size: 91pt; line-height: 47.5pt; padding-top: 24px; padding-right: 8px; padding-left: 3px; }
+
+.slider{ width:100%; overflow:hidden; margin-bottom:50px; text-align:center; }
+.slider .slides{ width:160%; margin-left:-30%; }
+.slider .slides div{ margin:0 2.5px;}
+.slider .slides div img{ width:100%; }
+.slider .caption{  display:inline-block; font-family:'baltomedium'; width:400px; max-width:70%; text-align:center; color:#a7a9ac; font-size:14px; margin:15px auto;}
+
+.slider .slides .slick-dots{ bottom:-30px;}
+.slider .slides .slick-dots li{ height:10px; width:10px; margin:0 2.5px; background:url(../img/slider/marker.jpg); background-position:left bottom; background-size:cover; cursor:pointer;}
+.slider .slides .slick-dots li button, .slick-dots li button:before{ width:10px; height:10px; }
+.slider .slides .slick-dots li.slick-active{ background-position:left top; }
+
